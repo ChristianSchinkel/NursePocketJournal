@@ -42,6 +42,12 @@
 		AAB4AF822C8E145D007CC8D2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF812C8E145D007CC8D2 /* Patient.swift */; };
 		AAB4AF832C8E145D007CC8D2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF812C8E145D007CC8D2 /* Patient.swift */; };
 		AAB4AF842C8E145D007CC8D2 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF812C8E145D007CC8D2 /* Patient.swift */; };
+		AAB4AF872C8E154D007CC8D2 /* CareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF852C8E154D007CC8D2 /* CareData.swift */; };
+		AAB4AF882C8E154D007CC8D2 /* CareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF852C8E154D007CC8D2 /* CareData.swift */; };
+		AAB4AF892C8E154D007CC8D2 /* CareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF852C8E154D007CC8D2 /* CareData.swift */; };
+		AAB4AF8A2C8E154D007CC8D2 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAB4AF862C8E154D007CC8D2 /* MIT License.txt */; };
+		AAB4AF8B2C8E154D007CC8D2 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAB4AF862C8E154D007CC8D2 /* MIT License.txt */; };
+		AAB4AF8C2C8E154D007CC8D2 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAB4AF862C8E154D007CC8D2 /* MIT License.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,8 @@
 		AAB4AF702C8E117B007CC8D2 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		AAB4AF7D2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoluntaryPsychiatricCommitment.swift; sourceTree = "<group>"; };
 		AAB4AF812C8E145D007CC8D2 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		AAB4AF852C8E154D007CC8D2 /* CareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareData.swift; sourceTree = "<group>"; };
+		AAB4AF862C8E154D007CC8D2 /* MIT License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT License.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +207,8 @@
 		AAB4AF5F2C8E0FFE007CC8D2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AAB4AF852C8E154D007CC8D2 /* CareData.swift */,
+				AAB4AF862C8E154D007CC8D2 /* MIT License.txt */,
 				AAB4AF602C8E104D007CC8D2 /* PreviewSampleData */,
 			);
 			path = Data;
@@ -324,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4AF8A2C8E154D007CC8D2 /* MIT License.txt in Resources */,
 				AA0BF26B2C8D8A0900056769 /* Preview Assets.xcassets in Resources */,
 				AA0BF2682C8D8A0900056769 /* Assets.xcassets in Resources */,
 			);
@@ -333,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4AF8B2C8E154D007CC8D2 /* MIT License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4AF8C2C8E154D007CC8D2 /* MIT License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +365,7 @@
 			files = (
 				AAB4AF672C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */,
+				AAB4AF872C8E154D007CC8D2 /* CareData.swift in Sources */,
 				AAB4AF6A2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
 				AAB4AF742C8E117B007CC8D2 /* Journal.swift in Sources */,
 				AAB4AF7A2C8E117B007CC8D2 /* Room.swift in Sources */,
@@ -375,6 +389,7 @@
 				AAB4AF7B2C8E117B007CC8D2 /* Room.swift in Sources */,
 				AAB4AF782C8E117B007CC8D2 /* Hospital.swift in Sources */,
 				AAB4AF752C8E117B007CC8D2 /* Journal.swift in Sources */,
+				AAB4AF882C8E154D007CC8D2 /* CareData.swift in Sources */,
 				AAB4AF6B2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
 				AAB4AF7F2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
 				AAB4AF832C8E145D007CC8D2 /* Patient.swift in Sources */,
@@ -387,6 +402,7 @@
 			files = (
 				AAB4AF692C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */,
+				AAB4AF892C8E154D007CC8D2 /* CareData.swift in Sources */,
 				AAB4AF6C2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
 				AAB4AF762C8E117B007CC8D2 /* Journal.swift in Sources */,
 				AAB4AF7C2C8E117B007CC8D2 /* Room.swift in Sources */,
