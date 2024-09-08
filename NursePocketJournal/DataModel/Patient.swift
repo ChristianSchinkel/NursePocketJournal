@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+import CSFoundationLibrary
 
 @Model
 /// A patient is a type of human being.
