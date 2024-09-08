@@ -18,6 +18,15 @@
 		AA0BF2942C8D905300056769 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2932C8D905300056769 /* Patient.swift */; };
 		AA0BF2952C8D905300056769 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2932C8D905300056769 /* Patient.swift */; };
 		AA0BF2962C8D905300056769 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2932C8D905300056769 /* Patient.swift */; };
+		AAB4AF642C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */; };
+		AAB4AF652C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */; };
+		AAB4AF662C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */; };
+		AAB4AF672C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */; };
+		AAB4AF682C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */; };
+		AAB4AF692C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */; };
+		AAB4AF6A2C8E1079007CC8D2 /* ModelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF632C8E1079007CC8D2 /* ModelPreview.swift */; };
+		AAB4AF6B2C8E1079007CC8D2 /* ModelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF632C8E1079007CC8D2 /* ModelPreview.swift */; };
+		AAB4AF6C2C8E1079007CC8D2 /* ModelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF632C8E1079007CC8D2 /* ModelPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,9 @@
 		AA0BF27E2C8D8A0900056769 /* NursePocketJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalUITests.swift; sourceTree = "<group>"; };
 		AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA0BF2932C8D905300056769 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Patient.swift; path = ../../../../../../Patient.swift; sourceTree = "<group>"; };
+		AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceDataController.swift; sourceTree = "<group>"; };
+		AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDataPreviewer.swift; sourceTree = "<group>"; };
+		AAB4AF632C8E1079007CC8D2 /* ModelPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,7 @@
 		AA0BF28E2C8D8AD700056769 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				AAB4AF5F2C8E0FFE007CC8D2 /* Data */,
 				AA0BF2932C8D905300056769 /* Patient.swift */,
 			);
 			path = DataModel;
@@ -156,6 +169,24 @@
 			children = (
 			);
 			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		AAB4AF5F2C8E0FFE007CC8D2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4AF602C8E104D007CC8D2 /* PreviewSampleData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AAB4AF602C8E104D007CC8D2 /* PreviewSampleData */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4AF632C8E1079007CC8D2 /* ModelPreview.swift */,
+				AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */,
+				AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */,
+			);
+			path = PreviewSampleData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4AF672C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */,
+				AAB4AF6A2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
+				AAB4AF642C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
 				AA0BF2942C8D905300056769 /* Patient.swift in Sources */,
 				AA0BF2622C8D8A0600056769 /* NursePocketJournalApp.swift in Sources */,
 			);
@@ -304,8 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4AF652C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
 				AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */,
 				AA0BF2952C8D905300056769 /* Patient.swift in Sources */,
+				AAB4AF682C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
+				AAB4AF6B2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +350,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4AF692C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */,
+				AAB4AF6C2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
+				AAB4AF662C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
 				AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */,
 				AA0BF2962C8D905300056769 /* Patient.swift in Sources */,
 			);
