@@ -97,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */,
-				AA0BF2632C8D8A0600056769 /* ContentView.swift */,
-				AA0BF2652C8D8A0600056769 /* Item.swift */,
+				AA0BF28D2C8D8AC100056769 /* Views */,
+				AA0BF28E2C8D8AD700056769 /* DataModel */,
 				AA0BF2672C8D8A0900056769 /* Assets.xcassets */,
 				AA0BF2692C8D8A0900056769 /* Preview Content */,
 			);
@@ -128,6 +128,30 @@
 				AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */,
 			);
 			path = NursePocketJournalUITests;
+			sourceTree = "<group>";
+		};
+		AA0BF28D2C8D8AC100056769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA0BF2632C8D8A0600056769 /* ContentView.swift */,
+				AA0BF28F2C8D8B1900056769 /* DetailViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA0BF28E2C8D8AD700056769 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA0BF2652C8D8A0600056769 /* Item.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		AA0BF28F2C8D8B1900056769 /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
