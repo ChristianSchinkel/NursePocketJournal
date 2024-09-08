@@ -1,0 +1,15 @@
+{
+  "originHash" : "11f0a254b09efe69613a861edd66ab237a357bd163710566abfae6e2c7f1ec72",
+  "pins" : [
+    {
+      "identity" : "csfoundationlibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ChristianSchinkel/CSFoundationLibrary",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5a8b10e5271acf64267741e7f8f424cc6fc72b8b"
+      }
+    }
+  ],
+  "version" : 3
+}

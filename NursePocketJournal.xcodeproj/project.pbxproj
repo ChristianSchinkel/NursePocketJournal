@@ -15,6 +15,7 @@
 		AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2742C8D8A0900056769 /* NursePocketJournalTests.swift */; };
 		AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF27E2C8D8A0900056769 /* NursePocketJournalUITests.swift */; };
 		AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */; };
+		AA0BF2922C8D8E1F00056769 /* CSFoundationLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AA0BF2912C8D8E1F00056769 /* CSFoundationLibrary */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0BF2922C8D8E1F00056769 /* CSFoundationLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +172,9 @@
 			dependencies = (
 			);
 			name = NursePocketJournal;
+			packageProductDependencies = (
+				AA0BF2912C8D8E1F00056769 /* CSFoundationLibrary */,
+			);
 			productName = NursePocketJournal;
 			productReference = AA0BF25E2C8D8A0600056769 /* NursePocketJournal.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +247,9 @@
 				Base,
 			);
 			mainGroup = AA0BF2552C8D8A0600056769;
+			packageReferences = (
+				AA0BF2902C8D8E1F00056769 /* XCRemoteSwiftPackageReference "CSFoundationLibrary" */,
+			);
 			productRefGroup = AA0BF25F2C8D8A0600056769 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -616,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA0BF2902C8D8E1F00056769 /* XCRemoteSwiftPackageReference "CSFoundationLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ChristianSchinkel/CSFoundationLibrary";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA0BF2912C8D8E1F00056769 /* CSFoundationLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0BF2902C8D8E1F00056769 /* XCRemoteSwiftPackageReference "CSFoundationLibrary" */;
+			productName = CSFoundationLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA0BF2562C8D8A0600056769 /* Project object */;
 }
