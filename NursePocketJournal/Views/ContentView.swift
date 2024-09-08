@@ -7,49 +7,50 @@
 
 import SwiftUI
 import SwiftData
+import CSFoundationLibrary
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var patients: [Patient]
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(patients) { patient in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text("Patient at")
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        Text("X")
                     }
                 }
-                .onDelete(perform: deleteItems)
+                .onDelete(perform: deletePatients)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    Button(action: addPatient) {
+                        Label("Add Patient", systemImage: "plus")
                     }
                 }
             }
         } detail: {
-            Text("Select an item")
+            Text("Select a patient")
         }
     }
 
-    private func addItem() {
+    private func addPatient() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+            let newPatient = Patient(name: "Taylor", familyName: "Swift", swedishSocialSecurityNumber: "19881209-2222")
+            modelContext.insert(newPatient)
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
+    private func deletePatients(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(patients[index])
             }
         }
     }
@@ -57,5 +58,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(for: Patient.self, inMemory: true)
 }

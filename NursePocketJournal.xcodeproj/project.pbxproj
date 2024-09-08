@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		AA0BF2622C8D8A0600056769 /* NursePocketJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */; };
 		AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2632C8D8A0600056769 /* ContentView.swift */; };
-		AA0BF2662C8D8A0600056769 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2652C8D8A0600056769 /* Item.swift */; };
 		AA0BF2682C8D8A0900056769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0BF2672C8D8A0900056769 /* Assets.xcassets */; };
 		AA0BF26B2C8D8A0900056769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0BF26A2C8D8A0900056769 /* Preview Assets.xcassets */; };
 		AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2742C8D8A0900056769 /* NursePocketJournalTests.swift */; };
 		AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF27E2C8D8A0900056769 /* NursePocketJournalUITests.swift */; };
 		AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */; };
 		AA0BF2922C8D8E1F00056769 /* CSFoundationLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AA0BF2912C8D8E1F00056769 /* CSFoundationLibrary */; };
+		AA0BF2942C8D905300056769 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2932C8D905300056769 /* Patient.swift */; };
+		AA0BF2952C8D905300056769 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2932C8D905300056769 /* Patient.swift */; };
+		AA0BF2962C8D905300056769 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2932C8D905300056769 /* Patient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		AA0BF25E2C8D8A0600056769 /* NursePocketJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NursePocketJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalApp.swift; sourceTree = "<group>"; };
 		AA0BF2632C8D8A0600056769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA0BF2652C8D8A0600056769 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AA0BF2672C8D8A0900056769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0BF26A2C8D8A0900056769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA0BF2702C8D8A0900056769 /* NursePocketJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursePocketJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,7 @@
 		AA0BF27A2C8D8A0900056769 /* NursePocketJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursePocketJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0BF27E2C8D8A0900056769 /* NursePocketJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalUITests.swift; sourceTree = "<group>"; };
 		AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA0BF2932C8D905300056769 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Patient.swift; path = ../../../../../../Patient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +146,7 @@
 		AA0BF28E2C8D8AD700056769 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				AA0BF2652C8D8A0600056769 /* Item.swift */,
+				AA0BF2932C8D905300056769 /* Patient.swift */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -293,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */,
-				AA0BF2662C8D8A0600056769 /* Item.swift in Sources */,
+				AA0BF2942C8D905300056769 /* Patient.swift in Sources */,
 				AA0BF2622C8D8A0600056769 /* NursePocketJournalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */,
+				AA0BF2952C8D905300056769 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +315,7 @@
 			files = (
 				AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */,
 				AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */,
+				AA0BF2962C8D905300056769 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
