@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+import CSFoundationLibrary
 
 @Model
 /// A prescription of a medicine with all the medications related to this prescription.

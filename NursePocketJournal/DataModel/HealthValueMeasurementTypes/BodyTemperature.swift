@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CSFoundationLibrary
 
 struct BodyTemperature: HealthValueMeasurement, Codable, Exemplifiable {
     

@@ -39,11 +39,11 @@ struct ContentView: View {
             Text("Select a patient")
         }
     }
-
+// MARK: - Functions for this View:
     private func addPatient() {
         withAnimation {
-            let newPatient = Patient(name: "Taylor", familyName: "Swift", swedishSocialSecurityNumber: "19881209-2222")
-            modelContext.insert(newPatient)
+//            let newPatient = Patient(name: "Taylor", familyName: "Swift", swedishSocialSecurityNumber: "19881209-2222")
+//            modelContext.insert(newPatient)
         }
     }
 
@@ -58,5 +58,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Patient.self, inMemory: true)
+        .modelContainer(PersistenceDataController.previewModelContainer)
 }

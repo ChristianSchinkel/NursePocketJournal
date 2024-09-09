@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CSFoundationLibrary
 
 struct BloodOxygen: HealthValueMeasurement, Exemplifiable {
     
