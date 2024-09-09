@@ -48,6 +48,108 @@
 		AAB4AF8A2C8E154D007CC8D2 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAB4AF862C8E154D007CC8D2 /* MIT License.txt */; };
 		AAB4AF8B2C8E154D007CC8D2 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAB4AF862C8E154D007CC8D2 /* MIT License.txt */; };
 		AAB4AF8C2C8E154D007CC8D2 /* MIT License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAB4AF862C8E154D007CC8D2 /* MIT License.txt */; };
+		AAB4AFBB2C8E16EC007CC8D2 /* PreScription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8D2C8E16EA007CC8D2 /* PreScription.swift */; };
+		AAB4AFBC2C8E16EC007CC8D2 /* PreScription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8D2C8E16EA007CC8D2 /* PreScription.swift */; };
+		AAB4AFBD2C8E16EC007CC8D2 /* PreScription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8D2C8E16EA007CC8D2 /* PreScription.swift */; };
+		AAB4AFBE2C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8E2C8E16EA007CC8D2 /* BehaviouralStatusIndex.swift */; };
+		AAB4AFBF2C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8E2C8E16EA007CC8D2 /* BehaviouralStatusIndex.swift */; };
+		AAB4AFC02C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8E2C8E16EA007CC8D2 /* BehaviouralStatusIndex.swift */; };
+		AAB4AFC12C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8F2C8E16EA007CC8D2 /* BloodGlucose.swift */; };
+		AAB4AFC22C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8F2C8E16EA007CC8D2 /* BloodGlucose.swift */; };
+		AAB4AFC32C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF8F2C8E16EA007CC8D2 /* BloodGlucose.swift */; };
+		AAB4AFC42C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF902C8E16EA007CC8D2 /* BloodOxygen.swift */; };
+		AAB4AFC52C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF902C8E16EA007CC8D2 /* BloodOxygen.swift */; };
+		AAB4AFC62C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF902C8E16EA007CC8D2 /* BloodOxygen.swift */; };
+		AAB4AFC72C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF912C8E16EA007CC8D2 /* BloodOxygenGoal.swift */; };
+		AAB4AFC82C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF912C8E16EA007CC8D2 /* BloodOxygenGoal.swift */; };
+		AAB4AFC92C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF912C8E16EA007CC8D2 /* BloodOxygenGoal.swift */; };
+		AAB4AFCA2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF922C8E16EA007CC8D2 /* BloodPressure.swift */; };
+		AAB4AFCB2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF922C8E16EA007CC8D2 /* BloodPressure.swift */; };
+		AAB4AFCC2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF922C8E16EA007CC8D2 /* BloodPressure.swift */; };
+		AAB4AFCD2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF932C8E16EA007CC8D2 /* BodyTemperature.swift */; };
+		AAB4AFCE2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF932C8E16EA007CC8D2 /* BodyTemperature.swift */; };
+		AAB4AFCF2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF932C8E16EA007CC8D2 /* BodyTemperature.swift */; };
+		AAB4AFD02C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF942C8E16EA007CC8D2 /* BreathAlcoholLevel.swift */; };
+		AAB4AFD12C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF942C8E16EA007CC8D2 /* BreathAlcoholLevel.swift */; };
+		AAB4AFD22C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF942C8E16EA007CC8D2 /* BreathAlcoholLevel.swift */; };
+		AAB4AFD32C8E16EC007CC8D2 /* Consciousness.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF952C8E16EA007CC8D2 /* Consciousness.swift */; };
+		AAB4AFD42C8E16EC007CC8D2 /* Consciousness.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF952C8E16EA007CC8D2 /* Consciousness.swift */; };
+		AAB4AFD52C8E16EC007CC8D2 /* Consciousness.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF952C8E16EA007CC8D2 /* Consciousness.swift */; };
+		AAB4AFD62C8E16EC007CC8D2 /* Disability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF962C8E16EA007CC8D2 /* Disability.swift */; };
+		AAB4AFD72C8E16EC007CC8D2 /* Disability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF962C8E16EA007CC8D2 /* Disability.swift */; };
+		AAB4AFD82C8E16EC007CC8D2 /* Disability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF962C8E16EA007CC8D2 /* Disability.swift */; };
+		AAB4AFD92C8E16EC007CC8D2 /* Excrement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF972C8E16EA007CC8D2 /* Excrement.swift */; };
+		AAB4AFDA2C8E16EC007CC8D2 /* Excrement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF972C8E16EA007CC8D2 /* Excrement.swift */; };
+		AAB4AFDB2C8E16EC007CC8D2 /* Excrement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF972C8E16EA007CC8D2 /* Excrement.swift */; };
+		AAB4AFDC2C8E16EC007CC8D2 /* Faeces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF982C8E16EA007CC8D2 /* Faeces.swift */; };
+		AAB4AFDD2C8E16EC007CC8D2 /* Faeces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF982C8E16EA007CC8D2 /* Faeces.swift */; };
+		AAB4AFDE2C8E16EC007CC8D2 /* Faeces.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF982C8E16EA007CC8D2 /* Faeces.swift */; };
+		AAB4AFDF2C8E16EC007CC8D2 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF992C8E16EA007CC8D2 /* HeartRate.swift */; };
+		AAB4AFE02C8E16EC007CC8D2 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF992C8E16EA007CC8D2 /* HeartRate.swift */; };
+		AAB4AFE12C8E16EC007CC8D2 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF992C8E16EA007CC8D2 /* HeartRate.swift */; };
+		AAB4AFE22C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9A2C8E16EA007CC8D2 /* MedicalGradeOfOrientation.swift */; };
+		AAB4AFE32C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9A2C8E16EA007CC8D2 /* MedicalGradeOfOrientation.swift */; };
+		AAB4AFE42C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9A2C8E16EA007CC8D2 /* MedicalGradeOfOrientation.swift */; };
+		AAB4AFE52C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9B2C8E16EA007CC8D2 /* PeripheralVenousCatheter.swift */; };
+		AAB4AFE62C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9B2C8E16EA007CC8D2 /* PeripheralVenousCatheter.swift */; };
+		AAB4AFE72C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9B2C8E16EA007CC8D2 /* PeripheralVenousCatheter.swift */; };
+		AAB4AFE82C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9C2C8E16EA007CC8D2 /* RespiratoryRate.swift */; };
+		AAB4AFE92C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9C2C8E16EA007CC8D2 /* RespiratoryRate.swift */; };
+		AAB4AFEA2C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9C2C8E16EA007CC8D2 /* RespiratoryRate.swift */; };
+		AAB4AFEB2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9D2C8E16EA007CC8D2 /* SuicidalRiskNiveau.swift */; };
+		AAB4AFEC2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9D2C8E16EA007CC8D2 /* SuicidalRiskNiveau.swift */; };
+		AAB4AFED2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9D2C8E16EA007CC8D2 /* SuicidalRiskNiveau.swift */; };
+		AAB4AFEE2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9E2C8E16EA007CC8D2 /* TypesOfObservation.swift */; };
+		AAB4AFEF2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9E2C8E16EA007CC8D2 /* TypesOfObservation.swift */; };
+		AAB4AFF02C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9E2C8E16EA007CC8D2 /* TypesOfObservation.swift */; };
+		AAB4AFF12C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9F2C8E16EA007CC8D2 /* UrineTestSubstance.swift */; };
+		AAB4AFF22C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9F2C8E16EA007CC8D2 /* UrineTestSubstance.swift */; };
+		AAB4AFF32C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF9F2C8E16EA007CC8D2 /* UrineTestSubstance.swift */; };
+		AAB4AFF42C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFA02C8E16EA007CC8D2 /* ViolenceRiskNiveau.swift */; };
+		AAB4AFF52C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFA02C8E16EA007CC8D2 /* ViolenceRiskNiveau.swift */; };
+		AAB4AFF62C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFA02C8E16EA007CC8D2 /* ViolenceRiskNiveau.swift */; };
+		AAB4AFFA2C8E16EC007CC8D2 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFA32C8E16EB007CC8D2 /* Medication.swift */; };
+		AAB4AFFB2C8E16EC007CC8D2 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFA32C8E16EB007CC8D2 /* Medication.swift */; };
+		AAB4AFFC2C8E16EC007CC8D2 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFA32C8E16EB007CC8D2 /* Medication.swift */; };
+		AAB4B0122C8E16ED007CC8D2 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAB2C8E16EB007CC8D2 /* HeartRate.swift */; };
+		AAB4B0132C8E16ED007CC8D2 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAB2C8E16EB007CC8D2 /* HeartRate.swift */; };
+		AAB4B0142C8E16ED007CC8D2 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAB2C8E16EB007CC8D2 /* HeartRate.swift */; };
+		AAB4B0182C8E16ED007CC8D2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAD2C8E16EB007CC8D2 /* Medicine.swift */; };
+		AAB4B0192C8E16ED007CC8D2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAD2C8E16EB007CC8D2 /* Medicine.swift */; };
+		AAB4B01A2C8E16ED007CC8D2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAD2C8E16EB007CC8D2 /* Medicine.swift */; };
+		AAB4B01B2C8E16ED007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAE2C8E16EB007CC8D2 /* MedicalGradeOfOrientation.swift */; };
+		AAB4B01C2C8E16ED007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAE2C8E16EB007CC8D2 /* MedicalGradeOfOrientation.swift */; };
+		AAB4B01D2C8E16ED007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAE2C8E16EB007CC8D2 /* MedicalGradeOfOrientation.swift */; };
+		AAB4B01E2C8E16ED007CC8D2 /* PeripheralVenousCatheter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAF2C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift */; };
+		AAB4B01F2C8E16ED007CC8D2 /* PeripheralVenousCatheter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAF2C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift */; };
+		AAB4B0202C8E16ED007CC8D2 /* PeripheralVenousCatheter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFAF2C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift */; };
+		AAB4B0212C8E16ED007CC8D2 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB02C8E16EC007CC8D2 /* Medication.swift */; };
+		AAB4B0222C8E16ED007CC8D2 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB02C8E16EC007CC8D2 /* Medication.swift */; };
+		AAB4B0232C8E16ED007CC8D2 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB02C8E16EC007CC8D2 /* Medication.swift */; };
+		AAB4B0242C8E16ED007CC8D2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB12C8E16EC007CC8D2 /* Medicine.swift */; };
+		AAB4B0252C8E16ED007CC8D2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB12C8E16EC007CC8D2 /* Medicine.swift */; };
+		AAB4B0262C8E16ED007CC8D2 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB12C8E16EC007CC8D2 /* Medicine.swift */; };
+		AAB4B0272C8E16ED007CC8D2 /* PreScription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB22C8E16EC007CC8D2 /* PreScription.swift */; };
+		AAB4B0282C8E16ED007CC8D2 /* PreScription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB22C8E16EC007CC8D2 /* PreScription.swift */; };
+		AAB4B0292C8E16ED007CC8D2 /* PreScription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AFB22C8E16EC007CC8D2 /* PreScription.swift */; };
+		AAB4B0462C8E1742007CC8D2 /* Exemplifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B03F2C8E1742007CC8D2 /* Exemplifiable.swift */; };
+		AAB4B0472C8E1742007CC8D2 /* Exemplifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B03F2C8E1742007CC8D2 /* Exemplifiable.swift */; };
+		AAB4B0482C8E1742007CC8D2 /* Exemplifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B03F2C8E1742007CC8D2 /* Exemplifiable.swift */; };
+		AAB4B0492C8E1742007CC8D2 /* HealthValueMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0402C8E1742007CC8D2 /* HealthValueMeasurement.swift */; };
+		AAB4B04A2C8E1742007CC8D2 /* HealthValueMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0402C8E1742007CC8D2 /* HealthValueMeasurement.swift */; };
+		AAB4B04B2C8E1742007CC8D2 /* HealthValueMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0402C8E1742007CC8D2 /* HealthValueMeasurement.swift */; };
+		AAB4B04C2C8E1742007CC8D2 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0412C8E1742007CC8D2 /* House.swift */; };
+		AAB4B04D2C8E1742007CC8D2 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0412C8E1742007CC8D2 /* House.swift */; };
+		AAB4B04E2C8E1742007CC8D2 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0412C8E1742007CC8D2 /* House.swift */; };
+		AAB4B04F2C8E1742007CC8D2 /* HumanlyNamed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0422C8E1742007CC8D2 /* HumanlyNamed.swift */; };
+		AAB4B0502C8E1742007CC8D2 /* HumanlyNamed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0422C8E1742007CC8D2 /* HumanlyNamed.swift */; };
+		AAB4B0512C8E1742007CC8D2 /* HumanlyNamed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0422C8E1742007CC8D2 /* HumanlyNamed.swift */; };
+		AAB4B0522C8E1742007CC8D2 /* Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0432C8E1742007CC8D2 /* Named.swift */; };
+		AAB4B0532C8E1742007CC8D2 /* Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0432C8E1742007CC8D2 /* Named.swift */; };
+		AAB4B0542C8E1742007CC8D2 /* Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0432C8E1742007CC8D2 /* Named.swift */; };
+		AAB4B0552C8E1742007CC8D2 /* PreScripted.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0442C8E1742007CC8D2 /* PreScripted.swift */; };
+		AAB4B0562C8E1742007CC8D2 /* PreScripted.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0442C8E1742007CC8D2 /* PreScripted.swift */; };
+		AAB4B0572C8E1742007CC8D2 /* PreScripted.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4B0442C8E1742007CC8D2 /* PreScripted.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +191,40 @@
 		AAB4AF812C8E145D007CC8D2 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		AAB4AF852C8E154D007CC8D2 /* CareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CareData.swift; sourceTree = "<group>"; };
 		AAB4AF862C8E154D007CC8D2 /* MIT License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT License.txt"; sourceTree = "<group>"; };
+		AAB4AF8D2C8E16EA007CC8D2 /* PreScription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScription.swift; sourceTree = "<group>"; };
+		AAB4AF8E2C8E16EA007CC8D2 /* BehaviouralStatusIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviouralStatusIndex.swift; sourceTree = "<group>"; };
+		AAB4AF8F2C8E16EA007CC8D2 /* BloodGlucose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodGlucose.swift; sourceTree = "<group>"; };
+		AAB4AF902C8E16EA007CC8D2 /* BloodOxygen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodOxygen.swift; sourceTree = "<group>"; };
+		AAB4AF912C8E16EA007CC8D2 /* BloodOxygenGoal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodOxygenGoal.swift; sourceTree = "<group>"; };
+		AAB4AF922C8E16EA007CC8D2 /* BloodPressure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressure.swift; sourceTree = "<group>"; };
+		AAB4AF932C8E16EA007CC8D2 /* BodyTemperature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyTemperature.swift; sourceTree = "<group>"; };
+		AAB4AF942C8E16EA007CC8D2 /* BreathAlcoholLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathAlcoholLevel.swift; sourceTree = "<group>"; };
+		AAB4AF952C8E16EA007CC8D2 /* Consciousness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consciousness.swift; sourceTree = "<group>"; };
+		AAB4AF962C8E16EA007CC8D2 /* Disability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disability.swift; sourceTree = "<group>"; };
+		AAB4AF972C8E16EA007CC8D2 /* Excrement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Excrement.swift; sourceTree = "<group>"; };
+		AAB4AF982C8E16EA007CC8D2 /* Faeces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faeces.swift; sourceTree = "<group>"; };
+		AAB4AF992C8E16EA007CC8D2 /* HeartRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		AAB4AF9A2C8E16EA007CC8D2 /* MedicalGradeOfOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalGradeOfOrientation.swift; sourceTree = "<group>"; };
+		AAB4AF9B2C8E16EA007CC8D2 /* PeripheralVenousCatheter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralVenousCatheter.swift; sourceTree = "<group>"; };
+		AAB4AF9C2C8E16EA007CC8D2 /* RespiratoryRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RespiratoryRate.swift; sourceTree = "<group>"; };
+		AAB4AF9D2C8E16EA007CC8D2 /* SuicidalRiskNiveau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuicidalRiskNiveau.swift; sourceTree = "<group>"; };
+		AAB4AF9E2C8E16EA007CC8D2 /* TypesOfObservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesOfObservation.swift; sourceTree = "<group>"; };
+		AAB4AF9F2C8E16EA007CC8D2 /* UrineTestSubstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrineTestSubstance.swift; sourceTree = "<group>"; };
+		AAB4AFA02C8E16EA007CC8D2 /* ViolenceRiskNiveau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViolenceRiskNiveau.swift; sourceTree = "<group>"; };
+		AAB4AFA32C8E16EB007CC8D2 /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		AAB4AFAB2C8E16EB007CC8D2 /* HeartRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		AAB4AFAD2C8E16EB007CC8D2 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		AAB4AFAE2C8E16EB007CC8D2 /* MedicalGradeOfOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalGradeOfOrientation.swift; sourceTree = "<group>"; };
+		AAB4AFAF2C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralVenousCatheter.swift; sourceTree = "<group>"; };
+		AAB4AFB02C8E16EC007CC8D2 /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		AAB4AFB12C8E16EC007CC8D2 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		AAB4AFB22C8E16EC007CC8D2 /* PreScription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScription.swift; sourceTree = "<group>"; };
+		AAB4B03F2C8E1742007CC8D2 /* Exemplifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exemplifiable.swift; sourceTree = "<group>"; };
+		AAB4B0402C8E1742007CC8D2 /* HealthValueMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthValueMeasurement.swift; sourceTree = "<group>"; };
+		AAB4B0412C8E1742007CC8D2 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		AAB4B0422C8E1742007CC8D2 /* HumanlyNamed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanlyNamed.swift; sourceTree = "<group>"; };
+		AAB4B0432C8E1742007CC8D2 /* Named.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Named.swift; sourceTree = "<group>"; };
+		AAB4B0442C8E1742007CC8D2 /* PreScripted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScripted.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +324,15 @@
 			children = (
 				AAB4AF812C8E145D007CC8D2 /* Patient.swift */,
 				AAB4AF5F2C8E0FFE007CC8D2 /* Data */,
+				AAB4AFA12C8E16EA007CC8D2 /* HealthValueMeasurementTypes */,
+				AAB4AFAB2C8E16EB007CC8D2 /* HeartRate.swift */,
+				AAB4AFAE2C8E16EB007CC8D2 /* MedicalGradeOfOrientation.swift */,
+				AAB4AFA32C8E16EB007CC8D2 /* Medication.swift */,
+				AAB4AFAD2C8E16EB007CC8D2 /* Medicine.swift */,
+				AAB4AFAF2C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift */,
+				AAB4AF8D2C8E16EA007CC8D2 /* PreScription.swift */,
+				AAB4AFB32C8E16EC007CC8D2 /* PreScriptions */,
+				AAB4B0452C8E1742007CC8D2 /* Protocols */,
 				AAB4AF6F2C8E117B007CC8D2 /* Hospital.swift */,
 				AAB4AF6E2C8E117B007CC8D2 /* Journal.swift */,
 				AAB4AF7D2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift */,
@@ -222,6 +367,55 @@
 				AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */,
 			);
 			path = PreviewSampleData;
+			sourceTree = "<group>";
+		};
+		AAB4AFA12C8E16EA007CC8D2 /* HealthValueMeasurementTypes */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4AF8E2C8E16EA007CC8D2 /* BehaviouralStatusIndex.swift */,
+				AAB4AF8F2C8E16EA007CC8D2 /* BloodGlucose.swift */,
+				AAB4AF902C8E16EA007CC8D2 /* BloodOxygen.swift */,
+				AAB4AF912C8E16EA007CC8D2 /* BloodOxygenGoal.swift */,
+				AAB4AF922C8E16EA007CC8D2 /* BloodPressure.swift */,
+				AAB4AF932C8E16EA007CC8D2 /* BodyTemperature.swift */,
+				AAB4AF942C8E16EA007CC8D2 /* BreathAlcoholLevel.swift */,
+				AAB4AF952C8E16EA007CC8D2 /* Consciousness.swift */,
+				AAB4AF962C8E16EA007CC8D2 /* Disability.swift */,
+				AAB4AF972C8E16EA007CC8D2 /* Excrement.swift */,
+				AAB4AF982C8E16EA007CC8D2 /* Faeces.swift */,
+				AAB4AF992C8E16EA007CC8D2 /* HeartRate.swift */,
+				AAB4AF9A2C8E16EA007CC8D2 /* MedicalGradeOfOrientation.swift */,
+				AAB4AF9B2C8E16EA007CC8D2 /* PeripheralVenousCatheter.swift */,
+				AAB4AF9C2C8E16EA007CC8D2 /* RespiratoryRate.swift */,
+				AAB4AF9D2C8E16EA007CC8D2 /* SuicidalRiskNiveau.swift */,
+				AAB4AF9E2C8E16EA007CC8D2 /* TypesOfObservation.swift */,
+				AAB4AF9F2C8E16EA007CC8D2 /* UrineTestSubstance.swift */,
+				AAB4AFA02C8E16EA007CC8D2 /* ViolenceRiskNiveau.swift */,
+			);
+			path = HealthValueMeasurementTypes;
+			sourceTree = "<group>";
+		};
+		AAB4AFB32C8E16EC007CC8D2 /* PreScriptions */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4AFB02C8E16EC007CC8D2 /* Medication.swift */,
+				AAB4AFB12C8E16EC007CC8D2 /* Medicine.swift */,
+				AAB4AFB22C8E16EC007CC8D2 /* PreScription.swift */,
+			);
+			path = PreScriptions;
+			sourceTree = "<group>";
+		};
+		AAB4B0452C8E1742007CC8D2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4B03F2C8E1742007CC8D2 /* Exemplifiable.swift */,
+				AAB4B0402C8E1742007CC8D2 /* HealthValueMeasurement.swift */,
+				AAB4B0412C8E1742007CC8D2 /* House.swift */,
+				AAB4B0422C8E1742007CC8D2 /* HumanlyNamed.swift */,
+				AAB4B0432C8E1742007CC8D2 /* Named.swift */,
+				AAB4B0442C8E1742007CC8D2 /* PreScripted.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,17 +558,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB4AF672C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
+				AAB4B0552C8E1742007CC8D2 /* PreScripted.swift in Sources */,
+				AAB4B0212C8E16ED007CC8D2 /* Medication.swift in Sources */,
+				AAB4AFEE2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
+				AAB4AFE22C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AAB4B0522C8E1742007CC8D2 /* Named.swift in Sources */,
 				AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */,
+				AAB4B0122C8E16ED007CC8D2 /* HeartRate.swift in Sources */,
+				AAB4B04C2C8E1742007CC8D2 /* House.swift in Sources */,
+				AAB4AFFA2C8E16EC007CC8D2 /* Medication.swift in Sources */,
+				AAB4B0242C8E16ED007CC8D2 /* Medicine.swift in Sources */,
 				AAB4AF872C8E154D007CC8D2 /* CareData.swift in Sources */,
+				AAB4B01B2C8E16ED007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AAB4AFC12C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
 				AAB4AF6A2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
+				AAB4AFD32C8E16EC007CC8D2 /* Consciousness.swift in Sources */,
+				AAB4AFCA2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */,
+				AAB4AFF42C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */,
+				AAB4B0462C8E1742007CC8D2 /* Exemplifiable.swift in Sources */,
+				AAB4B0182C8E16ED007CC8D2 /* Medicine.swift in Sources */,
+				AAB4AFBB2C8E16EC007CC8D2 /* PreScription.swift in Sources */,
+				AAB4AFF12C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */,
+				AAB4AFCD2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */,
+				AAB4AFC42C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */,
+				AAB4AFC72C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */,
 				AAB4AF742C8E117B007CC8D2 /* Journal.swift in Sources */,
 				AAB4AF7A2C8E117B007CC8D2 /* Room.swift in Sources */,
+				AAB4AFEB2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */,
 				AAB4AF642C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
+				AAB4B04F2C8E1742007CC8D2 /* HumanlyNamed.swift in Sources */,
+				AAB4AFDF2C8E16EC007CC8D2 /* HeartRate.swift in Sources */,
+				AAB4B0492C8E1742007CC8D2 /* HealthValueMeasurement.swift in Sources */,
+				AAB4AFE52C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AAB4AFDC2C8E16EC007CC8D2 /* Faeces.swift in Sources */,
 				AAB4AF772C8E117B007CC8D2 /* Hospital.swift in Sources */,
+				AAB4AFBE2C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */,
+				AAB4B01E2C8E16ED007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AAB4AFE82C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */,
 				AAB4AF712C8E117B007CC8D2 /* Ward.swift in Sources */,
+				AAB4AFD62C8E16EC007CC8D2 /* Disability.swift in Sources */,
 				AAB4AF7E2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
 				AA0BF2622C8D8A0600056769 /* NursePocketJournalApp.swift in Sources */,
 				AAB4AF822C8E145D007CC8D2 /* Patient.swift in Sources */,
+				AAB4B0272C8E16ED007CC8D2 /* PreScription.swift in Sources */,
+				AAB4AFD92C8E16EC007CC8D2 /* Excrement.swift in Sources */,
+				AAB4AFD02C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,16 +611,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB4AF652C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
+				AAB4B0192C8E16ED007CC8D2 /* Medicine.swift in Sources */,
 				AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */,
+				AAB4AFF22C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */,
 				AAB4AF722C8E117B007CC8D2 /* Ward.swift in Sources */,
+				AAB4B01C2C8E16ED007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AAB4AFFB2C8E16EC007CC8D2 /* Medication.swift in Sources */,
+				AAB4AFDA2C8E16EC007CC8D2 /* Excrement.swift in Sources */,
+				AAB4B0222C8E16ED007CC8D2 /* Medication.swift in Sources */,
 				AAB4AF682C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AAB4AF7B2C8E117B007CC8D2 /* Room.swift in Sources */,
 				AAB4AF782C8E117B007CC8D2 /* Hospital.swift in Sources */,
+				AAB4AFCE2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */,
+				AAB4AFEF2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
+				AAB4AFF52C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */,
+				AAB4B0562C8E1742007CC8D2 /* PreScripted.swift in Sources */,
+				AAB4B04A2C8E1742007CC8D2 /* HealthValueMeasurement.swift in Sources */,
 				AAB4AF752C8E117B007CC8D2 /* Journal.swift in Sources */,
+				AAB4AFE92C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */,
+				AAB4AFEC2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */,
+				AAB4AFBC2C8E16EC007CC8D2 /* PreScription.swift in Sources */,
+				AAB4AFE02C8E16EC007CC8D2 /* HeartRate.swift in Sources */,
 				AAB4AF882C8E154D007CC8D2 /* CareData.swift in Sources */,
+				AAB4AFD12C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */,
+				AAB4B0532C8E1742007CC8D2 /* Named.swift in Sources */,
+				AAB4B01F2C8E16ED007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
 				AAB4AF6B2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
+				AAB4AFC52C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */,
 				AAB4AF7F2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
+				AAB4AFD72C8E16EC007CC8D2 /* Disability.swift in Sources */,
+				AAB4B0282C8E16ED007CC8D2 /* PreScription.swift in Sources */,
 				AAB4AF832C8E145D007CC8D2 /* Patient.swift in Sources */,
+				AAB4AFDD2C8E16EC007CC8D2 /* Faeces.swift in Sources */,
+				AAB4AFC82C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */,
+				AAB4B0252C8E16ED007CC8D2 /* Medicine.swift in Sources */,
+				AAB4AFCB2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */,
+				AAB4B04D2C8E1742007CC8D2 /* House.swift in Sources */,
+				AAB4AFE62C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AAB4B0502C8E1742007CC8D2 /* HumanlyNamed.swift in Sources */,
+				AAB4AFD42C8E16EC007CC8D2 /* Consciousness.swift in Sources */,
+				AAB4AFBF2C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */,
+				AAB4B0132C8E16ED007CC8D2 /* HeartRate.swift in Sources */,
+				AAB4B0472C8E1742007CC8D2 /* Exemplifiable.swift in Sources */,
+				AAB4AFE32C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AAB4AFC22C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,17 +663,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB4AF692C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
+				AAB4B0572C8E1742007CC8D2 /* PreScripted.swift in Sources */,
+				AAB4B0232C8E16ED007CC8D2 /* Medication.swift in Sources */,
+				AAB4AFF02C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
+				AAB4AFE42C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AAB4B0542C8E1742007CC8D2 /* Named.swift in Sources */,
 				AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */,
+				AAB4B0142C8E16ED007CC8D2 /* HeartRate.swift in Sources */,
+				AAB4B04E2C8E1742007CC8D2 /* House.swift in Sources */,
+				AAB4AFFC2C8E16EC007CC8D2 /* Medication.swift in Sources */,
+				AAB4B0262C8E16ED007CC8D2 /* Medicine.swift in Sources */,
 				AAB4AF892C8E154D007CC8D2 /* CareData.swift in Sources */,
+				AAB4B01D2C8E16ED007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AAB4AFC32C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
 				AAB4AF6C2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
+				AAB4AFD52C8E16EC007CC8D2 /* Consciousness.swift in Sources */,
+				AAB4AFCC2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */,
+				AAB4AFF62C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */,
+				AAB4B0482C8E1742007CC8D2 /* Exemplifiable.swift in Sources */,
+				AAB4B01A2C8E16ED007CC8D2 /* Medicine.swift in Sources */,
+				AAB4AFBD2C8E16EC007CC8D2 /* PreScription.swift in Sources */,
+				AAB4AFF32C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */,
+				AAB4AFCF2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */,
+				AAB4AFC62C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */,
+				AAB4AFC92C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */,
 				AAB4AF762C8E117B007CC8D2 /* Journal.swift in Sources */,
 				AAB4AF7C2C8E117B007CC8D2 /* Room.swift in Sources */,
+				AAB4AFED2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */,
 				AAB4AF662C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
+				AAB4B0512C8E1742007CC8D2 /* HumanlyNamed.swift in Sources */,
+				AAB4AFE12C8E16EC007CC8D2 /* HeartRate.swift in Sources */,
+				AAB4B04B2C8E1742007CC8D2 /* HealthValueMeasurement.swift in Sources */,
+				AAB4AFE72C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AAB4AFDE2C8E16EC007CC8D2 /* Faeces.swift in Sources */,
 				AAB4AF792C8E117B007CC8D2 /* Hospital.swift in Sources */,
+				AAB4AFC02C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */,
+				AAB4B0202C8E16ED007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AAB4AFEA2C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */,
 				AAB4AF732C8E117B007CC8D2 /* Ward.swift in Sources */,
+				AAB4AFD82C8E16EC007CC8D2 /* Disability.swift in Sources */,
 				AAB4AF802C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
 				AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */,
 				AAB4AF842C8E145D007CC8D2 /* Patient.swift in Sources */,
+				AAB4B0292C8E16ED007CC8D2 /* PreScription.swift in Sources */,
+				AAB4AFDB2C8E16EC007CC8D2 /* Excrement.swift in Sources */,
+				AAB4AFD22C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

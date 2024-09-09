@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+import CSFoundationLibrary
 
 /// **Involuntary Psychiatric Commitment**
 /// - Parameters:

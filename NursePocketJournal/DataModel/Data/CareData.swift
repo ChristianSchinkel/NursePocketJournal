@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CSFoundationLibrary
 /// Care-struct declared in CareData.swift is a struct that has much information and is very central in the app using it.
 struct Care {
     struct AssessmentCollection {

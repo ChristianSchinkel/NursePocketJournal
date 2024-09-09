@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftData
+import CSFoundationLibrary
 
 @Model
 final class Journal: Identifiable, Exemplifiable {
