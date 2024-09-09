@@ -13,6 +13,7 @@ struct NursePocketJournalApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Patient.self,
+            Hospital.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

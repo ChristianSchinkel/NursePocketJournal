@@ -41,10 +41,11 @@ struct ContentView: View {
     }
 // MARK: - Functions for this View:
     private func addPatient() {
-        withAnimation {
+        print("Hej")
+//        withAnimation {
 //            let newPatient = Patient(name: "Taylor", familyName: "Swift", swedishSocialSecurityNumber: "19881209-2222")
 //            modelContext.insert(newPatient)
-        }
+//        }
     }
 
     private func deletePatients(offsets: IndexSet) {

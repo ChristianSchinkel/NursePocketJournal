@@ -266,7 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				AA0BF2632C8D8A0600056769 /* ContentView.swift */,
-				AA0BF28F2C8D8B1900056769 /* DetailViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,13 +285,6 @@
 				AAB4AF6D2C8E117B007CC8D2 /* Ward.swift */,
 			);
 			path = DataModel;
-			sourceTree = "<group>";
-		};
-		AA0BF28F2C8D8B1900056769 /* DetailViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DetailViews;
 			sourceTree = "<group>";
 		};
 		AAB4AF5F2C8E0FFE007CC8D2 /* Data */ = {
@@ -761,6 +753,7 @@
 				DEVELOPMENT_TEAM = 5NMH6T4VP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -790,6 +783,7 @@
 				DEVELOPMENT_TEAM = 5NMH6T4VP3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
