@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA0BF2622C8D8A0600056769 /* NursePocketJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */; };
-		AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2632C8D8A0600056769 /* ContentView.swift */; };
 		AA0BF2682C8D8A0900056769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0BF2672C8D8A0900056769 /* Assets.xcassets */; };
 		AA0BF26B2C8D8A0900056769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0BF26A2C8D8A0900056769 /* Preview Assets.xcassets */; };
 		AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2742C8D8A0900056769 /* NursePocketJournalTests.swift */; };
@@ -136,7 +135,6 @@
 /* Begin PBXFileReference section */
 		AA0BF25E2C8D8A0600056769 /* NursePocketJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NursePocketJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalApp.swift; sourceTree = "<group>"; };
-		AA0BF2632C8D8A0600056769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA0BF2672C8D8A0900056769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0BF26A2C8D8A0900056769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA0BF2702C8D8A0900056769 /* NursePocketJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursePocketJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -229,7 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */,
-				AA0BF28D2C8D8AC100056769 /* Views */,
 				AA0BF28E2C8D8AD700056769 /* DataModel */,
 				AA0BF2672C8D8A0900056769 /* Assets.xcassets */,
 				AA0BF2692C8D8A0900056769 /* Preview Content */,
@@ -260,14 +257,6 @@
 				AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */,
 			);
 			path = NursePocketJournalUITests;
-			sourceTree = "<group>";
-		};
-		AA0BF28D2C8D8AC100056769 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AA0BF2632C8D8A0600056769 /* ContentView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		AA0BF28E2C8D8AD700056769 /* DataModel */ = {
@@ -493,7 +482,6 @@
 				AAB4B0212C8E16ED007CC8D2 /* Medication.swift in Sources */,
 				AAB4AFEE2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
 				AAB4AFE22C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
-				AA0BF2642C8D8A0600056769 /* ContentView.swift in Sources */,
 				AAB4B0242C8E16ED007CC8D2 /* Medicine.swift in Sources */,
 				AAB4AF872C8E154D007CC8D2 /* CareData.swift in Sources */,
 				AAB4AFC12C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
