@@ -14,6 +14,129 @@
 		AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF27E2C8D8A0900056769 /* NursePocketJournalUITests.swift */; };
 		AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */; };
 		AA0BF2922C8D8E1F00056769 /* CSFoundationLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = AA0BF2912C8D8E1F00056769 /* CSFoundationLibrary */; };
+		AA3B8BFD2C8F665A007A32EC /* HospitalAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BC72C8F665A007A32EC /* HospitalAddView.swift */; };
+		AA3B8BFE2C8F665A007A32EC /* HospitalAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BC72C8F665A007A32EC /* HospitalAddView.swift */; };
+		AA3B8BFF2C8F665A007A32EC /* HospitalAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BC72C8F665A007A32EC /* HospitalAddView.swift */; };
+		AA3B8C002C8F665A007A32EC /* HospitalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BC82C8F665A007A32EC /* HospitalDetailView.swift */; };
+		AA3B8C012C8F665A007A32EC /* HospitalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BC82C8F665A007A32EC /* HospitalDetailView.swift */; };
+		AA3B8C022C8F665A007A32EC /* HospitalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BC82C8F665A007A32EC /* HospitalDetailView.swift */; };
+		AA3B8C032C8F665A007A32EC /* RoomAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCA2C8F665A007A32EC /* RoomAddView.swift */; };
+		AA3B8C042C8F665A007A32EC /* RoomAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCA2C8F665A007A32EC /* RoomAddView.swift */; };
+		AA3B8C052C8F665A007A32EC /* RoomAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCA2C8F665A007A32EC /* RoomAddView.swift */; };
+		AA3B8C062C8F665A007A32EC /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCB2C8F665A007A32EC /* RoomDetailView.swift */; };
+		AA3B8C072C8F665A007A32EC /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCB2C8F665A007A32EC /* RoomDetailView.swift */; };
+		AA3B8C082C8F665A007A32EC /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCB2C8F665A007A32EC /* RoomDetailView.swift */; };
+		AA3B8C092C8F665A007A32EC /* RoomSelecterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCC2C8F665A007A32EC /* RoomSelecterView.swift */; };
+		AA3B8C0A2C8F665A007A32EC /* RoomSelecterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCC2C8F665A007A32EC /* RoomSelecterView.swift */; };
+		AA3B8C0B2C8F665A007A32EC /* RoomSelecterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCC2C8F665A007A32EC /* RoomSelecterView.swift */; };
+		AA3B8C0C2C8F665A007A32EC /* WardAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCE2C8F665A007A32EC /* WardAddView.swift */; };
+		AA3B8C0D2C8F665A007A32EC /* WardAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCE2C8F665A007A32EC /* WardAddView.swift */; };
+		AA3B8C0E2C8F665A007A32EC /* WardAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCE2C8F665A007A32EC /* WardAddView.swift */; };
+		AA3B8C0F2C8F665A007A32EC /* WardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCF2C8F665A007A32EC /* WardDetailView.swift */; };
+		AA3B8C102C8F665A007A32EC /* WardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCF2C8F665A007A32EC /* WardDetailView.swift */; };
+		AA3B8C112C8F665A007A32EC /* WardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BCF2C8F665A007A32EC /* WardDetailView.swift */; };
+		AA3B8C122C8F665A007A32EC /* JournalAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD22C8F665A007A32EC /* JournalAddSheetView.swift */; };
+		AA3B8C132C8F665A007A32EC /* JournalAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD22C8F665A007A32EC /* JournalAddSheetView.swift */; };
+		AA3B8C142C8F665A007A32EC /* JournalAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD22C8F665A007A32EC /* JournalAddSheetView.swift */; };
+		AA3B8C152C8F665A007A32EC /* JournalListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD32C8F665A007A32EC /* JournalListDetailView.swift */; };
+		AA3B8C162C8F665A007A32EC /* JournalListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD32C8F665A007A32EC /* JournalListDetailView.swift */; };
+		AA3B8C172C8F665A007A32EC /* JournalListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD32C8F665A007A32EC /* JournalListDetailView.swift */; };
+		AA3B8C182C8F665A007A32EC /* JournalListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD42C8F665A007A32EC /* JournalListRowView.swift */; };
+		AA3B8C192C8F665A007A32EC /* JournalListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD42C8F665A007A32EC /* JournalListRowView.swift */; };
+		AA3B8C1A2C8F665A007A32EC /* JournalListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD42C8F665A007A32EC /* JournalListRowView.swift */; };
+		AA3B8C1B2C8F665A007A32EC /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD52C8F665A007A32EC /* JournalListView.swift */; };
+		AA3B8C1C2C8F665A007A32EC /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD52C8F665A007A32EC /* JournalListView.swift */; };
+		AA3B8C1D2C8F665A007A32EC /* JournalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD52C8F665A007A32EC /* JournalListView.swift */; };
+		AA3B8C1E2C8F665A007A32EC /* MedicineAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD72C8F665A007A32EC /* MedicineAddSheetView.swift */; };
+		AA3B8C1F2C8F665A007A32EC /* MedicineAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD72C8F665A007A32EC /* MedicineAddSheetView.swift */; };
+		AA3B8C202C8F665A007A32EC /* MedicineAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD72C8F665A007A32EC /* MedicineAddSheetView.swift */; };
+		AA3B8C212C8F665A007A32EC /* MedicineListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD82C8F665A007A32EC /* MedicineListDetailView.swift */; };
+		AA3B8C222C8F665A007A32EC /* MedicineListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD82C8F665A007A32EC /* MedicineListDetailView.swift */; };
+		AA3B8C232C8F665A007A32EC /* MedicineListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD82C8F665A007A32EC /* MedicineListDetailView.swift */; };
+		AA3B8C242C8F665A007A32EC /* MedicineListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD92C8F665A007A32EC /* MedicineListRowView.swift */; };
+		AA3B8C252C8F665A007A32EC /* MedicineListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD92C8F665A007A32EC /* MedicineListRowView.swift */; };
+		AA3B8C262C8F665A007A32EC /* MedicineListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BD92C8F665A007A32EC /* MedicineListRowView.swift */; };
+		AA3B8C272C8F665A007A32EC /* MedicineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDA2C8F665A007A32EC /* MedicineListView.swift */; };
+		AA3B8C282C8F665A007A32EC /* MedicineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDA2C8F665A007A32EC /* MedicineListView.swift */; };
+		AA3B8C292C8F665A007A32EC /* MedicineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDA2C8F665A007A32EC /* MedicineListView.swift */; };
+		AA3B8C2A2C8F665A007A32EC /* PatientAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDC2C8F665A007A32EC /* PatientAddSheetView.swift */; };
+		AA3B8C2B2C8F665A007A32EC /* PatientAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDC2C8F665A007A32EC /* PatientAddSheetView.swift */; };
+		AA3B8C2C2C8F665A007A32EC /* PatientAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDC2C8F665A007A32EC /* PatientAddSheetView.swift */; };
+		AA3B8C2D2C8F665A007A32EC /* PatientListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDD2C8F665A007A32EC /* PatientListDetailView.swift */; };
+		AA3B8C2E2C8F665A007A32EC /* PatientListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDD2C8F665A007A32EC /* PatientListDetailView.swift */; };
+		AA3B8C2F2C8F665A007A32EC /* PatientListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDD2C8F665A007A32EC /* PatientListDetailView.swift */; };
+		AA3B8C302C8F665A007A32EC /* PatientListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDE2C8F665A007A32EC /* PatientListRowView.swift */; };
+		AA3B8C312C8F665A007A32EC /* PatientListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDE2C8F665A007A32EC /* PatientListRowView.swift */; };
+		AA3B8C322C8F665A007A32EC /* PatientListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDE2C8F665A007A32EC /* PatientListRowView.swift */; };
+		AA3B8C332C8F665A007A32EC /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDF2C8F665A007A32EC /* PatientListView.swift */; };
+		AA3B8C342C8F665A007A32EC /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDF2C8F665A007A32EC /* PatientListView.swift */; };
+		AA3B8C352C8F665A007A32EC /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BDF2C8F665A007A32EC /* PatientListView.swift */; };
+		AA3B8C362C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE02C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift */; };
+		AA3B8C372C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE02C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift */; };
+		AA3B8C382C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE02C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift */; };
+		AA3B8C392C8F665A007A32EC /* VitalparameterAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE12C8F665A007A32EC /* VitalparameterAddSheetView.swift */; };
+		AA3B8C3A2C8F665A007A32EC /* VitalparameterAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE12C8F665A007A32EC /* VitalparameterAddSheetView.swift */; };
+		AA3B8C3B2C8F665A007A32EC /* VitalparameterAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE12C8F665A007A32EC /* VitalparameterAddSheetView.swift */; };
+		AA3B8C3C2C8F665A007A32EC /* MedicationListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE32C8F665A007A32EC /* MedicationListDetailView.swift */; };
+		AA3B8C3D2C8F665A007A32EC /* MedicationListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE32C8F665A007A32EC /* MedicationListDetailView.swift */; };
+		AA3B8C3E2C8F665A007A32EC /* MedicationListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE32C8F665A007A32EC /* MedicationListDetailView.swift */; };
+		AA3B8C3F2C8F665A007A32EC /* MedicationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE42C8F665A007A32EC /* MedicationListRowView.swift */; };
+		AA3B8C402C8F665A007A32EC /* MedicationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE42C8F665A007A32EC /* MedicationListRowView.swift */; };
+		AA3B8C412C8F665A007A32EC /* MedicationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE42C8F665A007A32EC /* MedicationListRowView.swift */; };
+		AA3B8C422C8F665A007A32EC /* MedicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE52C8F665A007A32EC /* MedicationListView.swift */; };
+		AA3B8C432C8F665A007A32EC /* MedicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE52C8F665A007A32EC /* MedicationListView.swift */; };
+		AA3B8C442C8F665A007A32EC /* MedicationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE52C8F665A007A32EC /* MedicationListView.swift */; };
+		AA3B8C452C8F665A007A32EC /* PreScriptionAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE72C8F665A007A32EC /* PreScriptionAddSheetView.swift */; };
+		AA3B8C462C8F665A007A32EC /* PreScriptionAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE72C8F665A007A32EC /* PreScriptionAddSheetView.swift */; };
+		AA3B8C472C8F665A007A32EC /* PreScriptionAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE72C8F665A007A32EC /* PreScriptionAddSheetView.swift */; };
+		AA3B8C482C8F665A007A32EC /* PreScriptionListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE82C8F665A007A32EC /* PreScriptionListDetailView.swift */; };
+		AA3B8C492C8F665A007A32EC /* PreScriptionListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE82C8F665A007A32EC /* PreScriptionListDetailView.swift */; };
+		AA3B8C4A2C8F665A007A32EC /* PreScriptionListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE82C8F665A007A32EC /* PreScriptionListDetailView.swift */; };
+		AA3B8C4B2C8F665A007A32EC /* PreScriptionListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE92C8F665A007A32EC /* PreScriptionListRowView.swift */; };
+		AA3B8C4C2C8F665A007A32EC /* PreScriptionListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE92C8F665A007A32EC /* PreScriptionListRowView.swift */; };
+		AA3B8C4D2C8F665A007A32EC /* PreScriptionListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BE92C8F665A007A32EC /* PreScriptionListRowView.swift */; };
+		AA3B8C4E2C8F665A007A32EC /* PreScriptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEA2C8F665A007A32EC /* PreScriptionListView.swift */; };
+		AA3B8C4F2C8F665A007A32EC /* PreScriptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEA2C8F665A007A32EC /* PreScriptionListView.swift */; };
+		AA3B8C502C8F665A007A32EC /* PreScriptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEA2C8F665A007A32EC /* PreScriptionListView.swift */; };
+		AA3B8C512C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BED2C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift */; };
+		AA3B8C522C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BED2C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift */; };
+		AA3B8C532C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BED2C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift */; };
+		AA3B8C542C8F665A007A32EC /* PatientMedicalQuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEE2C8F665A007A32EC /* PatientMedicalQuickView.swift */; };
+		AA3B8C552C8F665A007A32EC /* PatientMedicalQuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEE2C8F665A007A32EC /* PatientMedicalQuickView.swift */; };
+		AA3B8C562C8F665A007A32EC /* PatientMedicalQuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEE2C8F665A007A32EC /* PatientMedicalQuickView.swift */; };
+		AA3B8C572C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEF2C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift */; };
+		AA3B8C582C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEF2C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift */; };
+		AA3B8C592C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BEF2C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift */; };
+		AA3B8C5A2C8F665A007A32EC /* VitalSignQuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF02C8F665A007A32EC /* VitalSignQuickView.swift */; };
+		AA3B8C5B2C8F665A007A32EC /* VitalSignQuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF02C8F665A007A32EC /* VitalSignQuickView.swift */; };
+		AA3B8C5C2C8F665A007A32EC /* VitalSignQuickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF02C8F665A007A32EC /* VitalSignQuickView.swift */; };
+		AA3B8C5D2C8F665A007A32EC /* VitalSignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF12C8F665A007A32EC /* VitalSignsView.swift */; };
+		AA3B8C5E2C8F665A007A32EC /* VitalSignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF12C8F665A007A32EC /* VitalSignsView.swift */; };
+		AA3B8C5F2C8F665A007A32EC /* VitalSignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF12C8F665A007A32EC /* VitalSignsView.swift */; };
+		AA3B8C602C8F665A007A32EC /* WeekDaySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF22C8F665A007A32EC /* WeekDaySelectionView.swift */; };
+		AA3B8C612C8F665A007A32EC /* WeekDaySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF22C8F665A007A32EC /* WeekDaySelectionView.swift */; };
+		AA3B8C622C8F665A007A32EC /* WeekDaySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF22C8F665A007A32EC /* WeekDaySelectionView.swift */; };
+		AA3B8C632C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF42C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift */; };
+		AA3B8C642C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF42C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift */; };
+		AA3B8C652C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF42C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift */; };
+		AA3B8C662C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF52C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift */; };
+		AA3B8C672C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF52C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift */; };
+		AA3B8C682C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF52C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift */; };
+		AA3B8C692C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF62C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift */; };
+		AA3B8C6A2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF62C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift */; };
+		AA3B8C6B2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF62C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift */; };
+		AA3B8C6C2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF72C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift */; };
+		AA3B8C6D2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF72C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift */; };
+		AA3B8C6E2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF72C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift */; };
+		AA3B8C6F2C8F665A007A32EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF92C8F665A007A32EC /* ContentView.swift */; };
+		AA3B8C702C8F665A007A32EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF92C8F665A007A32EC /* ContentView.swift */; };
+		AA3B8C712C8F665A007A32EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BF92C8F665A007A32EC /* ContentView.swift */; };
+		AA3B8C722C8F665A007A32EC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BFA2C8F665A007A32EC /* MainTabView.swift */; };
+		AA3B8C732C8F665A007A32EC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BFA2C8F665A007A32EC /* MainTabView.swift */; };
+		AA3B8C742C8F665A007A32EC /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BFA2C8F665A007A32EC /* MainTabView.swift */; };
+		AA3B8C752C8F665A007A32EC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BFB2C8F665A007A32EC /* SettingsView.swift */; };
+		AA3B8C762C8F665A007A32EC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BFB2C8F665A007A32EC /* SettingsView.swift */; };
+		AA3B8C772C8F665A007A32EC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B8BFB2C8F665A007A32EC /* SettingsView.swift */; };
 		AAB4AF642C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */; };
 		AAB4AF652C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */; };
 		AAB4AF662C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */; };
@@ -142,6 +265,47 @@
 		AA0BF27A2C8D8A0900056769 /* NursePocketJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursePocketJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0BF27E2C8D8A0900056769 /* NursePocketJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalUITests.swift; sourceTree = "<group>"; };
 		AA0BF2802C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursePocketJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA3B8BC72C8F665A007A32EC /* HospitalAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalAddView.swift; sourceTree = "<group>"; };
+		AA3B8BC82C8F665A007A32EC /* HospitalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BCA2C8F665A007A32EC /* RoomAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomAddView.swift; sourceTree = "<group>"; };
+		AA3B8BCB2C8F665A007A32EC /* RoomDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BCC2C8F665A007A32EC /* RoomSelecterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSelecterView.swift; sourceTree = "<group>"; };
+		AA3B8BCE2C8F665A007A32EC /* WardAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WardAddView.swift; sourceTree = "<group>"; };
+		AA3B8BCF2C8F665A007A32EC /* WardDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WardDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BD22C8F665A007A32EC /* JournalAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BD32C8F665A007A32EC /* JournalListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalListDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BD42C8F665A007A32EC /* JournalListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalListRowView.swift; sourceTree = "<group>"; };
+		AA3B8BD52C8F665A007A32EC /* JournalListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalListView.swift; sourceTree = "<group>"; };
+		AA3B8BD72C8F665A007A32EC /* MedicineAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BD82C8F665A007A32EC /* MedicineListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineListDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BD92C8F665A007A32EC /* MedicineListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineListRowView.swift; sourceTree = "<group>"; };
+		AA3B8BDA2C8F665A007A32EC /* MedicineListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineListView.swift; sourceTree = "<group>"; };
+		AA3B8BDC2C8F665A007A32EC /* PatientAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BDD2C8F665A007A32EC /* PatientListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BDE2C8F665A007A32EC /* PatientListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListRowView.swift; sourceTree = "<group>"; };
+		AA3B8BDF2C8F665A007A32EC /* PatientListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListView.swift; sourceTree = "<group>"; };
+		AA3B8BE02C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrineTestSubstanceAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BE12C8F665A007A32EC /* VitalparameterAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalparameterAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BE32C8F665A007A32EC /* MedicationListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationListDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BE42C8F665A007A32EC /* MedicationListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationListRowView.swift; sourceTree = "<group>"; };
+		AA3B8BE52C8F665A007A32EC /* MedicationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationListView.swift; sourceTree = "<group>"; };
+		AA3B8BE72C8F665A007A32EC /* PreScriptionAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScriptionAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BE82C8F665A007A32EC /* PreScriptionListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScriptionListDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BE92C8F665A007A32EC /* PreScriptionListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScriptionListRowView.swift; sourceTree = "<group>"; };
+		AA3B8BEA2C8F665A007A32EC /* PreScriptionListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreScriptionListView.swift; sourceTree = "<group>"; };
+		AA3B8BED2C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMedicalPhysicalRestraintView.swift; sourceTree = "<group>"; };
+		AA3B8BEE2C8F665A007A32EC /* PatientMedicalQuickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMedicalQuickView.swift; sourceTree = "<group>"; };
+		AA3B8BEF2C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrineTestForDrugsAndSubstancesView.swift; sourceTree = "<group>"; };
+		AA3B8BF02C8F665A007A32EC /* VitalSignQuickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalSignQuickView.swift; sourceTree = "<group>"; };
+		AA3B8BF12C8F665A007A32EC /* VitalSignsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalSignsView.swift; sourceTree = "<group>"; };
+		AA3B8BF22C8F665A007A32EC /* WeekDaySelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekDaySelectionView.swift; sourceTree = "<group>"; };
+		AA3B8BF42C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoluntaryPsychiatricCommitmentAddSheetView.swift; sourceTree = "<group>"; };
+		AA3B8BF52C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoluntaryPsychiatricCommitmentListDetailView.swift; sourceTree = "<group>"; };
+		AA3B8BF62C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoluntaryPsychiatricCommitmentListRowView.swift; sourceTree = "<group>"; };
+		AA3B8BF72C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoluntaryPsychiatricCommitmentListView.swift; sourceTree = "<group>"; };
+		AA3B8BF92C8F665A007A32EC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA3B8BFA2C8F665A007A32EC /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AA3B8BFB2C8F665A007A32EC /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		AAB4AF612C8E1078007CC8D2 /* PersistenceDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceDataController.swift; sourceTree = "<group>"; };
 		AAB4AF622C8E1079007CC8D2 /* SwiftDataPreviewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDataPreviewer.swift; sourceTree = "<group>"; };
 		AAB4AF632C8E1079007CC8D2 /* ModelPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPreview.swift; sourceTree = "<group>"; };
@@ -227,6 +391,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0BF2612C8D8A0600056769 /* NursePocketJournalApp.swift */,
+				AA3B8BFC2C8F665A007A32EC /* Views */,
 				AA0BF28E2C8D8AD700056769 /* DataModel */,
 				AA0BF2672C8D8A0900056769 /* Assets.xcassets */,
 				AA0BF2692C8D8A0900056769 /* Preview Content */,
@@ -274,6 +439,150 @@
 				AAB4AF6D2C8E117B007CC8D2 /* Ward.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		AA3B8BC92C8F665A007A32EC /* HospitalViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BC72C8F665A007A32EC /* HospitalAddView.swift */,
+				AA3B8BC82C8F665A007A32EC /* HospitalDetailView.swift */,
+			);
+			path = HospitalViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BCD2C8F665A007A32EC /* RoomViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BCA2C8F665A007A32EC /* RoomAddView.swift */,
+				AA3B8BCB2C8F665A007A32EC /* RoomDetailView.swift */,
+				AA3B8BCC2C8F665A007A32EC /* RoomSelecterView.swift */,
+			);
+			path = RoomViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BD02C8F665A007A32EC /* WardViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BCE2C8F665A007A32EC /* WardAddView.swift */,
+				AA3B8BCF2C8F665A007A32EC /* WardDetailView.swift */,
+			);
+			path = WardViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BD12C8F665A007A32EC /* AddHospitalWardRoomViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BC92C8F665A007A32EC /* HospitalViews */,
+				AA3B8BCD2C8F665A007A32EC /* RoomViews */,
+				AA3B8BD02C8F665A007A32EC /* WardViews */,
+			);
+			path = AddHospitalWardRoomViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BD62C8F665A007A32EC /* JournalViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BD22C8F665A007A32EC /* JournalAddSheetView.swift */,
+				AA3B8BD32C8F665A007A32EC /* JournalListDetailView.swift */,
+				AA3B8BD42C8F665A007A32EC /* JournalListRowView.swift */,
+				AA3B8BD52C8F665A007A32EC /* JournalListView.swift */,
+			);
+			path = JournalViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BDB2C8F665A007A32EC /* MedicineViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BD72C8F665A007A32EC /* MedicineAddSheetView.swift */,
+				AA3B8BD82C8F665A007A32EC /* MedicineListDetailView.swift */,
+				AA3B8BD92C8F665A007A32EC /* MedicineListRowView.swift */,
+				AA3B8BDA2C8F665A007A32EC /* MedicineListView.swift */,
+			);
+			path = MedicineViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BE22C8F665A007A32EC /* PatientViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BDC2C8F665A007A32EC /* PatientAddSheetView.swift */,
+				AA3B8BDD2C8F665A007A32EC /* PatientListDetailView.swift */,
+				AA3B8BDE2C8F665A007A32EC /* PatientListRowView.swift */,
+				AA3B8BDF2C8F665A007A32EC /* PatientListView.swift */,
+				AA3B8BE02C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift */,
+				AA3B8BE12C8F665A007A32EC /* VitalparameterAddSheetView.swift */,
+			);
+			path = PatientViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BE62C8F665A007A32EC /* MedicationViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BE32C8F665A007A32EC /* MedicationListDetailView.swift */,
+				AA3B8BE42C8F665A007A32EC /* MedicationListRowView.swift */,
+				AA3B8BE52C8F665A007A32EC /* MedicationListView.swift */,
+			);
+			path = MedicationViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BEB2C8F665A007A32EC /* PreScriptionViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BE62C8F665A007A32EC /* MedicationViews */,
+				AA3B8BE72C8F665A007A32EC /* PreScriptionAddSheetView.swift */,
+				AA3B8BE82C8F665A007A32EC /* PreScriptionListDetailView.swift */,
+				AA3B8BE92C8F665A007A32EC /* PreScriptionListRowView.swift */,
+				AA3B8BEA2C8F665A007A32EC /* PreScriptionListView.swift */,
+			);
+			path = PreScriptionViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BEC2C8F665A007A32EC /* DetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BD62C8F665A007A32EC /* JournalViews */,
+				AA3B8BDB2C8F665A007A32EC /* MedicineViews */,
+				AA3B8BE22C8F665A007A32EC /* PatientViews */,
+				AA3B8BEB2C8F665A007A32EC /* PreScriptionViews */,
+			);
+			path = DetailViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BF32C8F665A007A32EC /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BED2C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift */,
+				AA3B8BEE2C8F665A007A32EC /* PatientMedicalQuickView.swift */,
+				AA3B8BEF2C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift */,
+				AA3B8BF02C8F665A007A32EC /* VitalSignQuickView.swift */,
+				AA3B8BF12C8F665A007A32EC /* VitalSignsView.swift */,
+				AA3B8BF22C8F665A007A32EC /* WeekDaySelectionView.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BF82C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BF42C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift */,
+				AA3B8BF52C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift */,
+				AA3B8BF62C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift */,
+				AA3B8BF72C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift */,
+			);
+			path = InvoluntaryPsychiatricCommitmentViews;
+			sourceTree = "<group>";
+		};
+		AA3B8BFC2C8F665A007A32EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B8BF92C8F665A007A32EC /* ContentView.swift */,
+				AA3B8BFA2C8F665A007A32EC /* MainTabView.swift */,
+				AA3B8BFB2C8F665A007A32EC /* SettingsView.swift */,
+				AA3B8BD12C8F665A007A32EC /* AddHospitalWardRoomViews */,
+				AA3B8BEC2C8F665A007A32EC /* DetailViews */,
+				AA3B8BF32C8F665A007A32EC /* HelperViews */,
+				AA3B8BF82C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentViews */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		AAB4AF5F2C8E0FFE007CC8D2 /* Data */ = {
@@ -478,38 +787,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3B8C182C8F665A007A32EC /* JournalListRowView.swift in Sources */,
+				AA3B8C5A2C8F665A007A32EC /* VitalSignQuickView.swift in Sources */,
 				AAB4AF672C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AAB4B0212C8E16ED007CC8D2 /* Medication.swift in Sources */,
 				AAB4AFEE2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
+				AA3B8C392C8F665A007A32EC /* VitalparameterAddSheetView.swift in Sources */,
 				AAB4AFE22C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
 				AAB4B0242C8E16ED007CC8D2 /* Medicine.swift in Sources */,
+				AA3B8C272C8F665A007A32EC /* MedicineListView.swift in Sources */,
+				AA3B8C452C8F665A007A32EC /* PreScriptionAddSheetView.swift in Sources */,
+				AA3B8C1B2C8F665A007A32EC /* JournalListView.swift in Sources */,
+				AA3B8C152C8F665A007A32EC /* JournalListDetailView.swift in Sources */,
 				AAB4AF872C8E154D007CC8D2 /* CareData.swift in Sources */,
 				AAB4AFC12C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
 				AAB4AF6A2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
+				AA3B8C302C8F665A007A32EC /* PatientListRowView.swift in Sources */,
 				AAB4AFD32C8E16EC007CC8D2 /* Consciousness.swift in Sources */,
+				AA3B8C062C8F665A007A32EC /* RoomDetailView.swift in Sources */,
 				AAB4AFCA2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */,
 				AAB4AFF42C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */,
+				AA3B8C662C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift in Sources */,
+				AA3B8C542C8F665A007A32EC /* PatientMedicalQuickView.swift in Sources */,
 				AAB4AFF12C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */,
+				AA3B8C4E2C8F665A007A32EC /* PreScriptionListView.swift in Sources */,
 				AAB4AFCD2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */,
+				AA3B8C6C2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift in Sources */,
+				AA3B8C422C8F665A007A32EC /* MedicationListView.swift in Sources */,
 				AAB4AFC42C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */,
+				AA3B8C2D2C8F665A007A32EC /* PatientListDetailView.swift in Sources */,
 				AAB4AFC72C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */,
+				AA3B8C572C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift in Sources */,
+				AA3B8C002C8F665A007A32EC /* HospitalDetailView.swift in Sources */,
 				AAB4AF742C8E117B007CC8D2 /* Journal.swift in Sources */,
+				AA3B8C332C8F665A007A32EC /* PatientListView.swift in Sources */,
+				AA3B8C3C2C8F665A007A32EC /* MedicationListDetailView.swift in Sources */,
+				AA3B8C032C8F665A007A32EC /* RoomAddView.swift in Sources */,
 				AAB4AF7A2C8E117B007CC8D2 /* Room.swift in Sources */,
 				AAB4AFEB2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */,
 				AAB4AF642C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
 				AAB4AFDF2C8E16EC007CC8D2 /* HeartRate.swift in Sources */,
 				AAB4AFE52C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AA3B8C212C8F665A007A32EC /* MedicineListDetailView.swift in Sources */,
+				AA3B8C122C8F665A007A32EC /* JournalAddSheetView.swift in Sources */,
+				AA3B8C752C8F665A007A32EC /* SettingsView.swift in Sources */,
 				AAB4AFDC2C8E16EC007CC8D2 /* Faeces.swift in Sources */,
 				AAB4AF772C8E117B007CC8D2 /* Hospital.swift in Sources */,
 				AAB4AFBE2C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */,
+				AA3B8C722C8F665A007A32EC /* MainTabView.swift in Sources */,
 				AAB4AFE82C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */,
+				AA3B8C632C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift in Sources */,
 				AAB4AF712C8E117B007CC8D2 /* Ward.swift in Sources */,
+				AA3B8C482C8F665A007A32EC /* PreScriptionListDetailView.swift in Sources */,
+				AA3B8C6F2C8F665A007A32EC /* ContentView.swift in Sources */,
 				AAB4AFD62C8E16EC007CC8D2 /* Disability.swift in Sources */,
+				AA3B8C362C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift in Sources */,
 				AAB4AF7E2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
+				AA3B8C602C8F665A007A32EC /* WeekDaySelectionView.swift in Sources */,
+				AA3B8BFD2C8F665A007A32EC /* HospitalAddView.swift in Sources */,
+				AA3B8C2A2C8F665A007A32EC /* PatientAddSheetView.swift in Sources */,
+				AA3B8C0C2C8F665A007A32EC /* WardAddView.swift in Sources */,
 				AA0BF2622C8D8A0600056769 /* NursePocketJournalApp.swift in Sources */,
+				AA3B8C5D2C8F665A007A32EC /* VitalSignsView.swift in Sources */,
+				AA3B8C242C8F665A007A32EC /* MedicineListRowView.swift in Sources */,
 				AAB4AF822C8E145D007CC8D2 /* Patient.swift in Sources */,
+				AA3B8C692C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift in Sources */,
+				AA3B8C0F2C8F665A007A32EC /* WardDetailView.swift in Sources */,
+				AA3B8C4B2C8F665A007A32EC /* PreScriptionListRowView.swift in Sources */,
+				AA3B8C3F2C8F665A007A32EC /* MedicationListRowView.swift in Sources */,
+				AA3B8C092C8F665A007A32EC /* RoomSelecterView.swift in Sources */,
 				AAB4B0272C8E16ED007CC8D2 /* PreScription.swift in Sources */,
 				AAB4AFD92C8E16EC007CC8D2 /* Excrement.swift in Sources */,
+				AA3B8C1E2C8F665A007A32EC /* MedicineAddSheetView.swift in Sources */,
+				AA3B8C512C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift in Sources */,
 				AAB4AFD02C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,38 +868,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3B8C192C8F665A007A32EC /* JournalListRowView.swift in Sources */,
+				AA3B8C5B2C8F665A007A32EC /* VitalSignQuickView.swift in Sources */,
 				AAB4AF652C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
 				AA0BF2752C8D8A0900056769 /* NursePocketJournalTests.swift in Sources */,
 				AAB4AFF22C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */,
+				AA3B8C3A2C8F665A007A32EC /* VitalparameterAddSheetView.swift in Sources */,
 				AAB4AF722C8E117B007CC8D2 /* Ward.swift in Sources */,
 				AAB4AFDA2C8E16EC007CC8D2 /* Excrement.swift in Sources */,
+				AA3B8C282C8F665A007A32EC /* MedicineListView.swift in Sources */,
+				AA3B8C462C8F665A007A32EC /* PreScriptionAddSheetView.swift in Sources */,
+				AA3B8C1C2C8F665A007A32EC /* JournalListView.swift in Sources */,
+				AA3B8C162C8F665A007A32EC /* JournalListDetailView.swift in Sources */,
 				AAB4B0222C8E16ED007CC8D2 /* Medication.swift in Sources */,
 				AAB4AF682C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
 				AAB4AF7B2C8E117B007CC8D2 /* Room.swift in Sources */,
+				AA3B8C312C8F665A007A32EC /* PatientListRowView.swift in Sources */,
 				AAB4AF782C8E117B007CC8D2 /* Hospital.swift in Sources */,
+				AA3B8C072C8F665A007A32EC /* RoomDetailView.swift in Sources */,
 				AAB4AFCE2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */,
 				AAB4AFEF2C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
+				AA3B8C672C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift in Sources */,
+				AA3B8C552C8F665A007A32EC /* PatientMedicalQuickView.swift in Sources */,
 				AAB4AFF52C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */,
+				AA3B8C4F2C8F665A007A32EC /* PreScriptionListView.swift in Sources */,
 				AAB4AF752C8E117B007CC8D2 /* Journal.swift in Sources */,
+				AA3B8C6D2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift in Sources */,
+				AA3B8C432C8F665A007A32EC /* MedicationListView.swift in Sources */,
 				AAB4AFE92C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */,
+				AA3B8C2E2C8F665A007A32EC /* PatientListDetailView.swift in Sources */,
 				AAB4AFEC2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */,
+				AA3B8C582C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift in Sources */,
+				AA3B8C012C8F665A007A32EC /* HospitalDetailView.swift in Sources */,
 				AAB4AFE02C8E16EC007CC8D2 /* HeartRate.swift in Sources */,
+				AA3B8C342C8F665A007A32EC /* PatientListView.swift in Sources */,
+				AA3B8C3D2C8F665A007A32EC /* MedicationListDetailView.swift in Sources */,
+				AA3B8C042C8F665A007A32EC /* RoomAddView.swift in Sources */,
 				AAB4AF882C8E154D007CC8D2 /* CareData.swift in Sources */,
 				AAB4AFD12C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */,
 				AAB4AF6B2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
 				AAB4AFC52C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */,
 				AAB4AF7F2C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
+				AA3B8C222C8F665A007A32EC /* MedicineListDetailView.swift in Sources */,
+				AA3B8C132C8F665A007A32EC /* JournalAddSheetView.swift in Sources */,
+				AA3B8C762C8F665A007A32EC /* SettingsView.swift in Sources */,
 				AAB4AFD72C8E16EC007CC8D2 /* Disability.swift in Sources */,
 				AAB4B0282C8E16ED007CC8D2 /* PreScription.swift in Sources */,
 				AAB4AF832C8E145D007CC8D2 /* Patient.swift in Sources */,
+				AA3B8C732C8F665A007A32EC /* MainTabView.swift in Sources */,
 				AAB4AFDD2C8E16EC007CC8D2 /* Faeces.swift in Sources */,
+				AA3B8C642C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift in Sources */,
 				AAB4AFC82C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */,
+				AA3B8C492C8F665A007A32EC /* PreScriptionListDetailView.swift in Sources */,
+				AA3B8C702C8F665A007A32EC /* ContentView.swift in Sources */,
 				AAB4B0252C8E16ED007CC8D2 /* Medicine.swift in Sources */,
+				AA3B8C372C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift in Sources */,
 				AAB4AFCB2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */,
+				AA3B8C612C8F665A007A32EC /* WeekDaySelectionView.swift in Sources */,
+				AA3B8BFE2C8F665A007A32EC /* HospitalAddView.swift in Sources */,
+				AA3B8C2B2C8F665A007A32EC /* PatientAddSheetView.swift in Sources */,
+				AA3B8C0D2C8F665A007A32EC /* WardAddView.swift in Sources */,
 				AAB4AFE62C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AA3B8C5E2C8F665A007A32EC /* VitalSignsView.swift in Sources */,
+				AA3B8C252C8F665A007A32EC /* MedicineListRowView.swift in Sources */,
 				AAB4AFD42C8E16EC007CC8D2 /* Consciousness.swift in Sources */,
+				AA3B8C6A2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift in Sources */,
+				AA3B8C102C8F665A007A32EC /* WardDetailView.swift in Sources */,
+				AA3B8C4C2C8F665A007A32EC /* PreScriptionListRowView.swift in Sources */,
+				AA3B8C402C8F665A007A32EC /* MedicationListRowView.swift in Sources */,
+				AA3B8C0A2C8F665A007A32EC /* RoomSelecterView.swift in Sources */,
 				AAB4AFBF2C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */,
 				AAB4AFE32C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AA3B8C1F2C8F665A007A32EC /* MedicineAddSheetView.swift in Sources */,
+				AA3B8C522C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift in Sources */,
 				AAB4AFC22C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,38 +949,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3B8C2F2C8F665A007A32EC /* PatientListDetailView.swift in Sources */,
+				AA3B8C202C8F665A007A32EC /* MedicineAddSheetView.swift in Sources */,
+				AA3B8C262C8F665A007A32EC /* MedicineListRowView.swift in Sources */,
+				AA3B8C382C8F665A007A32EC /* UrineTestSubstanceAddSheetView.swift in Sources */,
+				AA3B8C322C8F665A007A32EC /* PatientListRowView.swift in Sources */,
 				AAB4AF692C8E1079007CC8D2 /* SwiftDataPreviewer.swift in Sources */,
+				AA3B8C5F2C8F665A007A32EC /* VitalSignsView.swift in Sources */,
 				AAB4B0232C8E16ED007CC8D2 /* Medication.swift in Sources */,
 				AAB4AFF02C8E16EC007CC8D2 /* TypesOfObservation.swift in Sources */,
+				AA3B8C3E2C8F665A007A32EC /* MedicationListDetailView.swift in Sources */,
 				AAB4AFE42C8E16EC007CC8D2 /* MedicalGradeOfOrientation.swift in Sources */,
+				AA3B8C5C2C8F665A007A32EC /* VitalSignQuickView.swift in Sources */,
 				AA0BF2812C8D8A0900056769 /* NursePocketJournalUITestsLaunchTests.swift in Sources */,
+				AA3B8BFF2C8F665A007A32EC /* HospitalAddView.swift in Sources */,
 				AAB4B0262C8E16ED007CC8D2 /* Medicine.swift in Sources */,
+				AA3B8C772C8F665A007A32EC /* SettingsView.swift in Sources */,
+				AA3B8C652C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentAddSheetView.swift in Sources */,
+				AA3B8C592C8F665A007A32EC /* UrineTestForDrugsAndSubstancesView.swift in Sources */,
 				AAB4AF892C8E154D007CC8D2 /* CareData.swift in Sources */,
+				AA3B8C352C8F665A007A32EC /* PatientListView.swift in Sources */,
 				AAB4AFC32C8E16EC007CC8D2 /* BloodGlucose.swift in Sources */,
 				AAB4AF6C2C8E1079007CC8D2 /* ModelPreview.swift in Sources */,
 				AAB4AFD52C8E16EC007CC8D2 /* Consciousness.swift in Sources */,
+				AA3B8C472C8F665A007A32EC /* PreScriptionAddSheetView.swift in Sources */,
 				AAB4AFCC2C8E16EC007CC8D2 /* BloodPressure.swift in Sources */,
+				AA3B8C562C8F665A007A32EC /* PatientMedicalQuickView.swift in Sources */,
+				AA3B8C232C8F665A007A32EC /* MedicineListDetailView.swift in Sources */,
 				AAB4AFF62C8E16EC007CC8D2 /* ViolenceRiskNiveau.swift in Sources */,
 				AAB4AFF32C8E16EC007CC8D2 /* UrineTestSubstance.swift in Sources */,
 				AAB4AFCF2C8E16EC007CC8D2 /* BodyTemperature.swift in Sources */,
+				AA3B8C622C8F665A007A32EC /* WeekDaySelectionView.swift in Sources */,
+				AA3B8C1D2C8F665A007A32EC /* JournalListView.swift in Sources */,
 				AAB4AFC62C8E16EC007CC8D2 /* BloodOxygen.swift in Sources */,
+				AA3B8C142C8F665A007A32EC /* JournalAddSheetView.swift in Sources */,
 				AAB4AFC92C8E16EC007CC8D2 /* BloodOxygenGoal.swift in Sources */,
+				AA3B8C022C8F665A007A32EC /* HospitalDetailView.swift in Sources */,
+				AA3B8C172C8F665A007A32EC /* JournalListDetailView.swift in Sources */,
 				AAB4AF762C8E117B007CC8D2 /* Journal.swift in Sources */,
+				AA3B8C1A2C8F665A007A32EC /* JournalListRowView.swift in Sources */,
+				AA3B8C502C8F665A007A32EC /* PreScriptionListView.swift in Sources */,
 				AAB4AF7C2C8E117B007CC8D2 /* Room.swift in Sources */,
 				AAB4AFED2C8E16EC007CC8D2 /* SuicidalRiskNiveau.swift in Sources */,
 				AAB4AF662C8E1079007CC8D2 /* PersistenceDataController.swift in Sources */,
+				AA3B8C6B2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListRowView.swift in Sources */,
+				AA3B8C0E2C8F665A007A32EC /* WardAddView.swift in Sources */,
+				AA3B8C532C8F665A007A32EC /* PatientMedicalPhysicalRestraintView.swift in Sources */,
+				AA3B8C682C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListDetailView.swift in Sources */,
+				AA3B8C442C8F665A007A32EC /* MedicationListView.swift in Sources */,
 				AAB4AFE12C8E16EC007CC8D2 /* HeartRate.swift in Sources */,
 				AAB4AFE72C8E16EC007CC8D2 /* PeripheralVenousCatheter.swift in Sources */,
+				AA3B8C412C8F665A007A32EC /* MedicationListRowView.swift in Sources */,
+				AA3B8C082C8F665A007A32EC /* RoomDetailView.swift in Sources */,
 				AAB4AFDE2C8E16EC007CC8D2 /* Faeces.swift in Sources */,
 				AAB4AF792C8E117B007CC8D2 /* Hospital.swift in Sources */,
+				AA3B8C742C8F665A007A32EC /* MainTabView.swift in Sources */,
+				AA3B8C4D2C8F665A007A32EC /* PreScriptionListRowView.swift in Sources */,
+				AA3B8C292C8F665A007A32EC /* MedicineListView.swift in Sources */,
 				AAB4AFC02C8E16EC007CC8D2 /* BehaviouralStatusIndex.swift in Sources */,
 				AAB4AFEA2C8E16EC007CC8D2 /* RespiratoryRate.swift in Sources */,
+				AA3B8C712C8F665A007A32EC /* ContentView.swift in Sources */,
 				AAB4AF732C8E117B007CC8D2 /* Ward.swift in Sources */,
 				AAB4AFD82C8E16EC007CC8D2 /* Disability.swift in Sources */,
+				AA3B8C2C2C8F665A007A32EC /* PatientAddSheetView.swift in Sources */,
 				AAB4AF802C8E13BF007CC8D2 /* InvoluntaryPsychiatricCommitment.swift in Sources */,
+				AA3B8C4A2C8F665A007A32EC /* PreScriptionListDetailView.swift in Sources */,
 				AA0BF27F2C8D8A0900056769 /* NursePocketJournalUITests.swift in Sources */,
+				AA3B8C0B2C8F665A007A32EC /* RoomSelecterView.swift in Sources */,
+				AA3B8C112C8F665A007A32EC /* WardDetailView.swift in Sources */,
 				AAB4AF842C8E145D007CC8D2 /* Patient.swift in Sources */,
 				AAB4B0292C8E16ED007CC8D2 /* PreScription.swift in Sources */,
+				AA3B8C6E2C8F665A007A32EC /* InvoluntaryPsychiatricCommitmentListView.swift in Sources */,
+				AA3B8C3B2C8F665A007A32EC /* VitalparameterAddSheetView.swift in Sources */,
+				AA3B8C052C8F665A007A32EC /* RoomAddView.swift in Sources */,
 				AAB4AFDB2C8E16EC007CC8D2 /* Excrement.swift in Sources */,
 				AAB4AFD22C8E16EC007CC8D2 /* BreathAlcoholLevel.swift in Sources */,
 			);
